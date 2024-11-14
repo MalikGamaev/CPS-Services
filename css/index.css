@@ -77,31 +77,31 @@ html, body {
 
 
 .burger-icon {
-	background: url('/img/burger.svg') no-repeat;
+	background: url('../img/burger.svg') no-repeat;
 }
 
 .call-icon {
-	background: url('/img/call.svg') no-repeat;
+	background: url('../img/call.svg') no-repeat;
 }
 
 .chat-icon {
-	background: url('/img/chat.svg') no-repeat;	
+	background: url('../img/chat.svg') no-repeat;	
 }
 
 .profile-icon {
-	background: url('/img/profile.svg') no-repeat;
+	background: url('../img/profile.svg') no-repeat;
 }
 
 .repair-icon {
-	background: url('/img/repair.svg') no-repeat;
+	background: url('../img/repair.svg') no-repeat;
 }
 
 .checkstatus-icon {
-	background: url('/img/checkstatus.svg') no-repeat;
+	background: url('../img/checkstatus.svg') no-repeat;
 }
 
 .read-more__icon {
-	background: url("/img/icon.svg") no-repeat center;
+	background: url("../img/icon.svg") no-repeat center;
 	width: 24px;
 	height: 24px;
 }
