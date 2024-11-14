@@ -100,11 +100,7 @@ html, body {
 	background: url('../img/checkstatus.svg') no-repeat;
 }
 
-.read-more__icon {
-	background: url("../img/icon.svg") no-repeat center;
-	width: 24px;
-	height: 24px;
-}
+
 
 .header__popup-menu {
 	display: none;
@@ -254,6 +250,13 @@ html, body {
 .main__read-more {
 	display: flex;
 	padding-top: 16px;
+	margin-left: 16px;
+}
+.read-more__icon {
+	background: url("../img/icon.svg") no-repeat center;
+	width: 24px;
+	height: 24px;
+	display: block;
 }
 
 .read-more__text {
