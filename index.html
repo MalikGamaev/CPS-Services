@@ -14,11 +14,7 @@
 		<div class="header__wrapper">
 			<div class="header__menu-left">
 				<div class="header__menu-burger">
-					<a href="#" class="header__link-burger">
-						<span class="icon burger-icon">
-
-						</span>
-					</a>
+					<button class="header__button-burger icon icon--burger"></button>
 				</div>
 				<div class="header__logo">
 					<span class="logo-icon">
@@ -29,27 +25,16 @@
 
 			<div class="header__menu-right">
 				<div class="header__popup-menu">
-					<a href="#">
-						<span class="icon call-icon"></span>
-					</a>
-					<a href="#">
-						<span class="icon chat-icon"></span>
-					</a>
-					<a href="#">
-						<span class="icon profile-icon">
-						</span>
-					</a>
+					<a href="#" class="icon icon--call"></a>
+					<a href="#" class="icon icon--chat"></a>
+					<a href="#" class="icon icon--profile"></a>
 				</div>
 				<div class="header__helper">
 					<div class="header__repair-icon">
-						<a href="#">
-							<span class="icon repair-icon"></span>
-						</a>
+						<a href="#" class="icon icon--repair"></a>
 					</div>
 					<div class="header__checkstatus-icon">
-						<a href="#">
-							<span class="icon checkstatus-icon"></span>
-						</a>
+						<a href="#" class="icon icon--checkstatus"></a>
 					</div>
 				</div>
 			</div>
@@ -59,49 +44,45 @@
 		<div class="main__wrapper">
 			<div class="main__tittle">
 				<div class="main__tittle-text">
-					<span>Услуги и сервисы</span>
+					<h1>Услуги и сервисы</h1>
 				</div>
 				<div class="main__helper">
-					<div class="main__helper-repair">
-						<span class="main__repair-text">Оставить заявку</span>
-						<a href="#">
-							<span class="icon repair-icon"></span>
-						</a>
-					</div>
-					<div class="main__helper-checkstatus">
-						<span class="main__checkstatus-text">Статус ремонта</span>
-						<a href="#">
-							<span class="icon checkstatus-icon"></span>
-						</a>
-					</div>
+					<a href="#" class="main__helper-item">
+						<span class="main__helper-text">Оставить заявку</span>
+						<span class="icon icon--repair"></span>
+					</a>
+					<a href="#" class="main__helper-item">
+						<span class="main__helper-text">Статус ремонта</span>
+						<span class="icon icon--checkstatus"></span>
+					</a>
 				</div>
 			</div>
-			<div class="main__services-tabs">
-				<button class="services-tabs__item services-tabs__item--active">Ремонтируемые бренды</button>
-				<button class="services-tabs__item services-tabs__item--active">Ремонтируемые устройства</button>
-				<button class="services-tabs__item services-tabs__item--active">Цены на услуги</button>
-				<button class="services-tabs__item services-tabs__item--active">Адреса сервисных центров</button>
-				<button class="services-tabs__item services-tabs__item--active">Специальные цены</button>
-				<button class="services-tabs__item services-tabs__item--active">Отзывы</button>
-			</div>
+			<nav class="main__services-tabs">
+				<ul class="services-tabs__items">
+					<li><a class="services-tabs__item services-tabs__item--active">Ремонтируемые бренды</a></li>
+					<li><a class="services-tabs__item services-tabs__item--active">Ремонтируемые устройства</a></li>
+					<li><a class="services-tabs__item services-tabs__item--active">Цены на услуги</a></li>
+					<li><a class="services-tabs__item services-tabs__item--active">Адреса сервисных центров</a></li>
+					<li><a class="services-tabs__item services-tabs__item--active">Специальные цены</a></li>
+					<li><a class="services-tabs__item services-tabs__item--active">Отзывы</a></li>
+				</ul>
+			</nav>
 			<div class="main__content">
 				<div class="main__text-wrapper">
 					<div class="main__content-text">Мы являемся авторизованным сервисным центром по ремонту техники Dell.
 						Только у нас вы можете отремонтировать свой ноутбук Dell с официальной гарантией производителя.
 						<br>
 						<br>
-						<span class="text-none-1">Мы успешно работаем с 1992 года и заслужили репутацию надежного
-							партнера</span><span class="text-none-2">, что подтверждает большое
-							количество постоянных клиентов.
-							Мы гордимся тем, что к нам обращаются по рекомендациям и, в свою очередь, советуют нас родным и
-							близким.</span>
+						Мы успешно работаем с 1992 года и заслужили репутацию надежного
+						партнера, что подтверждает большое
+						количество постоянных клиентов.
+						Мы гордимся тем, что к нам обращаются по рекомендациям и, в свою очередь, советуют нас родным и
+						близким.
 					</div>
-					<div class="main__read-more">
-						<a href="#">
-							<span class="read-more__icon"></span>
-						</a>
+					<button class="main__read-more">
+						<span class="read-more__icon"></span>
 						<span class="read-more__text">Читать далее</span>
-					</div>
+					</button>
 				</div>
 				<div class="main__content-image">
 					<img src="./img/main_img.png" alt="" class="main__image">
